@@ -71,8 +71,13 @@ button {
     color: white;
     border-radius: 8px;
     padding: 6px 36px;
-    border: none;
     margin: 10px 0px;
+    min-width: 145px;
+    max-height: 35px;
+}
+
+.navy-container button {
+    border: none;
 }
 
 .navy-container {
@@ -113,3 +118,33 @@ button {
     color: black;
 }
 
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 150px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    gap: 0px;
+    justify-content: space-between;
+}
+
+.call-to-action h5 {
+    color: white;
+    margin: 0px;
+}
+
+.call-to-action h3 {
+    color: lightgray;
+}
+
+.call-to-action button{
+    border-color: white;
+}
+
+.navy-container-2 {
+    display: flex;
+    padding: 50px 100px;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
